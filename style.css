@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section#teammember{
+    background: url(./img/bg-3.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+section#Our_Team_Members .row:first-child {
+    margin: 50px 0;
+}
+h1.title.text-center {
+    font-weight: 700;
+    font-size: 54px;
+}
+
+img {
+    width: 100%;
+}
+.team_card h4 {
+    text-align: center;
+}
+.team_card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team_card_name {
+    background: red;
+    height: 152px;
+    padding-top: 30px;
+}
+.team_card h4 {
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0;
+}
+.team_card p {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.8;
+}
+.team_card img {
+    height: 510px;
+    object-fit: cover;
+}
+
+section#icon_section {
+    background: #000;
+    padding: 120px 0;
+    margin-top: 40px;
+}
+.icon_block img {
+    width: 80px;
+}
+.icon_block h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.icon_block p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .row.d-md-hide {
+        display: none;
+    }
+  }
